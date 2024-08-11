@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pocdbt110824"
+version = "0.1.0"
+description = ""
+authors = ["janpaulosalvador00 <janpaulosalvador00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+dbt-postgres = "^1.8.2"
+dbt-snowflake = "^1.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
